@@ -1,0 +1,31 @@
+# Secrets / environment
+.env
+
+# Python virtual environment
+.venv/
+venv/
+
+# Agent state (sessions, long-term memory)
+.agent/
+
+# Narrator-generated story state
+story/
+bible.json
+state.json
+
+# Local logs
+run.log
+*.log
+
+# Python caches and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

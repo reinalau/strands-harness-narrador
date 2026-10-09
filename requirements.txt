@@ -1,0 +1,7 @@
+# Strands harness + el extra de Google Gemini (instala google-genai).
+# El orquestador corre en Gemini y los subagentes en Amazon Bedrock (Nova),
+# que ya viene soportado de base por strands-harness.
+strands-harness[gemini]==0.1.2
+
+# Carga las variables de entorno desde el archivo .env (GEMINI_API_KEY, etc.).
+python-dotenv==1.2.4
